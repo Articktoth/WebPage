@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+:root{
+    --mainBlack: #00171f;
+    --mainBlue: #003459;
+    --cerulian: #007ea7;
+    --vividCerulian: #00a8e8;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background: #ffffff;
+    color: var(--mainBlack);
+}
+
+.nav-link{
+    color: #ffffff;
+}
+.navbar-toggler{
+    color: #ffffff;
+    outline: none !important;
+  }
+
+.home{
+
+    min-height: 100vh;
+    background: linear-gradient(var(--mainBlack), rgba(197, 197, 197, 0.52)), url('../img/pexels-photo-326424.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #ffffff;
+}
+.title{
+    text-align: center;
+    margin-top: 40%;
+}
+.sub-title{
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+.about{
+    background: var(--mainBlue);
+    color: #ffffff;
+    
+}
+
+/*Portfolio section*/
+.single-work{
+    transition: all 0.3 linear;
+  }
+  .single-work:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0);
+  }
+  .img-container{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+.img-about{
+    width: 100%;
+    height: auto;
+}
+.work-img{
+    transition: all 1s ease-in-out;
+  }
+.img-container:hover .work-img{
+    transform: scale(1.2);
+}
+
+/*Footer*/
+.footer-title{
+    color: #ffffff;
+}
+.footer-icon{
+    font-size: 2.5rem;
+    color: var(--mainWhite);
+    transition: all 0.4 ease-in-out;
+  }
+.footer-icon:hover{
+    color: #ffffff;
+    transform: scale(1.2);
+}
