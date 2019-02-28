@@ -40,11 +40,11 @@ body{
 .sub-title{
     text-align: center;
     letter-spacing: 0.5rem;
+    text-transform: uppercase;
 }
 .about{
-    background: var(--mainBlue);
-    color: #ffffff;
-    
+    background: var(--mainBlack);
+    color: #ffffff;    
 }
 
 /*Portfolio section*/
