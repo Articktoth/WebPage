@@ -46,6 +46,13 @@ body{
     background: var(--mainBlack);
     color: #ffffff;    
 }
+#profile-img{
+    transform: rotate(90deg);
+    filter: grayscale(100%);
+}
+#profile-img:hover{
+    filter: grayscale(0%);
+}
 
 /*Portfolio section*/
 .single-work{
